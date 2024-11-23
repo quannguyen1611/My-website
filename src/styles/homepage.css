@@ -1,0 +1,242 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: 1px solid grey;
+    background: white;
+    color: black;
+}
+.social-links a{
+    color: black;
+    padding-left: 15px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.intro-text{
+    text-align: left;
+    width: 500px;
+}
+.intro-image{
+    width: 500px;
+}
+.intro-buttons{
+    display: flex;
+    gap: 15px; 
+}
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: black; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.contact-button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: white; 
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.Quan{
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    overflow: hidden;
+    border: 2px solid black;
+}
+.skills{
+    padding: 30px;
+}
+.skillCards-grid{
+    display: flex;
+    flex-direction: column;
+}
+.skillCard-row, .project-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px; 
+    margin-bottom: 30px;
+}
+.frontend, .backend, .database, .languages, .version-control, .tools{
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skill-element{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.projects{
+    padding: 30px;
+}
+.project-card{
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+}
+.project-thumbnail{
+    width: 500px; 
+    height: 200px;
+    object-fit: cover;
+}
+.project-des{
+    padding: 20px;
+}
+.project-buttons {
+    display: flex;
+    gap: 15px;
+}
+  
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    align-items: center; /* Align icon and text vertically */
+    gap: 10px;
+}
+
+.button-icon {
+    font-size: 13px; 
+    margin-right: 10px;
+}
+
+.project-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.arrow-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+.arrow-button:hover {
+    transform: scale(1.2);
+}
+  
+.project-card.active {
+    transform: scale(1.05);
+}
+
+.project-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    border-top: 1px solid grey;
+    justify-items: center;
+}
+
+/* General Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .hero {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center-align text */
+      padding: 15px;
+    }
+  
+    .social-links a {
+      padding-left: 10px;
+    }
+  
+    .intro {
+      flex-direction: column-reverse; /* Stack text and image vertically */
+      align-items: center;
+      padding: 20px;
+    }
+    .intro-image {
+        display: flex; /* Makes it a flex container */
+        justify-content: center;
+    }
+    
+    .intro-text {
+      width: 100%; /* Full width for mobile */
+      text-align: left;
+    }
+  
+    .Quan {
+      width: 150px; /* Smaller image */
+      height: 150px;
+    }
+  
+    .skillCards-grid {
+      gap: 20px;
+    }
+  
+    .skillCard-row {
+      flex-direction: column; /* Stack skill cards vertically */
+      align-items: center;
+    }
+    .project-list{
+        flex-direction: column;
+    }
+    .frontend, .backend, .database, .languages, .version-control, .tools {
+      width: 90%; /* Reduce card width */
+    }
+  
+    .project-slider {
+      flex-direction: column; /* Stack slider and buttons */
+      align-items: center;
+    }
+  
+    .project-card {
+      width: 100%; /* Full width for mobile */
+    }
+  
+    .project-thumbnail {
+      width: 100%; /* Adjust image width to fit container */
+      height: 150px; /* Adjust height for smaller screens */
+    }
+  
+    .project-buttons {
+      flex-direction: column; /* Stack buttons vertically */
+      align-items: center; /* Center align buttons */
+      gap: 10px;
+    }
+}
+  
