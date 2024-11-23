@@ -78,18 +78,18 @@ const Homepage = () => {
         <div className="intro-text">
           <h1 style={{ fontSize: "30px" }}>
             Hi, I'm Quan 👋 
-            <br></br>
+            <br />
             Full-Stack Developer
           </h1>
           <p style={{ fontSize: "20px" }}>
-          I’m a tech enthusiast and problem-solver with a passion for crafting elegant web solutions and building impactful software. 
-          Whether it’s developing sleek front-end designs or diving deep into backend logic, I thrive on turning complex ideas into 
-          user-friendly experiences. 
-          <br></br><br></br>
-          When I’m not coding my next project (or debugging it for hours), you’ll probably find me at the gym, 
-          bingeing some cringy k-drama shows, or making new recipes that may or may not turn out edible lol.
-          <br></br><br></br>
-          Welcome to my corner of the internet! 😄 🚀
+            I’m a tech enthusiast and problem-solver with a passion for crafting elegant web solutions and building impactful software. 
+            Whether it’s developing sleek front-end designs or diving deep into backend logic, I thrive on turning complex ideas into 
+            user-friendly experiences. 
+            <br /><br />
+            When I’m not coding my next project (or debugging it for hours), you’ll probably find me at the gym, 
+            bingeing some cringy K-drama shows, or making new recipes that may or may not turn out edible lol.
+            <br /><br />
+            Welcome to my corner of the internet! 😊 🚀
           </p>
           <div className='intro-buttons'>
             <a
