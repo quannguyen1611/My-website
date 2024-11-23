@@ -124,21 +124,23 @@ const Homepage = () => {
               <div className='skill-element'>HTML5</div>
               <div className='skill-element'>CSS3</div>
               <div className='skill-element'>JavaScript</div>
-              <div className='skill-element'>React</div>
-              <div className='skill-element'>Typescript</div>
+              <div className='skill-element'>ReactJS</div>
+              <div className='skill-element'>React Native</div>
+              <div className='skill-element'>Tailwind CSS</div>
             </div>
             <div className='backend'>
               <h2> <FaServer size={20}/> Backend </h2>
               <div className='skill-element'>Python</div>
-              <div className='skill-element'>Java</div>
-              <div className='skill-element'>Django</div>
+              <div className='skill-element'>Django REST</div>
               <div className='skill-element'>Node.js</div>
               <div className='skill-element'>NestJS</div>
+              <div className='skill-element'>RESTful APIs</div>
             </div>
             <div className='database'>
               <h2> <FaDatabase size={20}/> Database </h2>
               <div className='skill-element'>MySQL</div>
               <div className='skill-element'>MongoDB</div>
+              <div className='skill-element'>SQL</div>
             </div>
           </div>
           <div className='skillCard-row'>
@@ -147,8 +149,8 @@ const Homepage = () => {
               <div className='skill-element'>Python</div>
               <div className='skill-element'>Java</div>
               <div className='skill-element'>JavaScript</div>
-              <div className='skill-element'>SQL</div>
               <div className='skill-element'>Typescript</div>
+              <div className='skill-element'>C/C++</div>
             </div>
             <div className='version-control'>
               <h2> <BiGitBranch size={20}/> Version Control </h2>
@@ -163,6 +165,7 @@ const Homepage = () => {
               <div className='skill-element'>Docker</div>
               <div className='skill-element'>Figma</div>
               <div className='skill-element'>Canva</div>
+              <div className='skill-element'>WordPress</div>
             </div>
           </div>
         </div>
