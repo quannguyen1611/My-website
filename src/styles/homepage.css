@@ -14,10 +14,12 @@
     background: white;
     color: black;
 }
+
 .social-links a{
     color: black;
     padding-left: 15px;
 }
+
 .intro{
     display: flex;
     flex-direction: row;
@@ -26,17 +28,21 @@
     padding-top: 50px;
     justify-content: space-between;
 }
+
 .intro-text{
     text-align: left;
     width: 500px;
 }
+
 .intro-image{
     width: 500px;
 }
+
 .intro-buttons{
     display: flex;
     gap: 15px; 
 }
+
 .download-button {
     display: inline-block;
     padding: 10px 20px;
@@ -49,6 +55,7 @@
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
+
 .contact-button{
     display: inline-block;
     padding: 10px 20px;
@@ -61,6 +68,7 @@
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
+
 .Quan{
     width: 300px; 
     height: 300px; 
@@ -72,10 +80,12 @@
 .skills{
     padding: 30px;
 }
+
 .skillCards-grid{
     display: flex;
     flex-direction: column;
 }
+
 .skillCard-row, .project-list{
     display: flex;
     flex-direction: row;
@@ -83,12 +93,14 @@
     gap: 30px; 
     margin-bottom: 30px;
 }
+
 .frontend, .backend, .database, .languages, .version-control, .tools{
     width: 500px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .skill-element{
     display: inline-block;
     padding: 5px 15px;
@@ -98,9 +110,11 @@
     margin-right: 15px;
     margin-bottom: 15px;
 }
+
 .projects{
     padding: 30px;
 }
+
 .project-card{
     width: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -108,14 +122,17 @@
     overflow: hidden;
     border: 1px solid lightgrey;
 }
+
 .project-thumbnail{
     width: 500px; 
     height: 200px;
     object-fit: cover;
 }
+
 .project-des{
     padding: 20px;
 }
+
 .project-buttons {
     display: flex;
     gap: 15px;
@@ -172,71 +189,71 @@
     justify-items: center;
 }
 
-/* General Styles for Smaller Screens */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .hero {
-      flex-direction: column; /* Stack items vertically */
-      text-align: center; /* Center-align text */
-      padding: 15px;
+        flex-direction: column; 
+        text-align: center; 
+        padding: 15px;
     }
   
     .social-links a {
-      padding-left: 10px;
+        padding-left: 10px;
     }
   
     .intro {
-      flex-direction: column-reverse; /* Stack text and image vertically */
-      align-items: center;
-      padding: 20px;
+        flex-direction: column-reverse; 
+        align-items: center;
+        padding: 20px;
     }
     .intro-image {
-        display: flex; /* Makes it a flex container */
+        display: flex; 
         justify-content: center;
     }
     
     .intro-text {
-      width: 100%; /* Full width for mobile */
-      text-align: left;
+        width: 100%; 
+        text-align: left;
     }
   
     .Quan {
-      width: 150px; /* Smaller image */
-      height: 150px;
+        width: 150px; 
+        height: 150px;
     }
   
     .skillCards-grid {
-      gap: 20px;
+        gap: 20px;
     }
   
     .skillCard-row {
-      flex-direction: column; /* Stack skill cards vertically */
-      align-items: center;
+        flex-direction: column; 
+        align-items: center;
     }
     .project-list{
         flex-direction: column;
     }
     .frontend, .backend, .database, .languages, .version-control, .tools {
-      width: 90%; /* Reduce card width */
+        width: 90%; 
     }
   
     .project-slider {
-      flex-direction: column; /* Stack slider and buttons */
-      align-items: center;
+        flex-direction: column; 
+        align-items: center;
     }
   
     .project-card {
-      width: 100%; /* Full width for mobile */
+        width: 100%; 
     }
   
     .project-thumbnail {
-      width: 100%; /* Adjust image width to fit container */
-      height: 150px; /* Adjust height for smaller screens */
+        width: 100%; 
+        height: 150px; 
     }
   
     .project-buttons {
-      flex-direction: column; /* Stack buttons vertically */
-      align-items: center; /* Center align buttons */
-      gap: 10px;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px;
     }
 }
   
