@@ -93,7 +93,7 @@ const Homepage = () => {
           </p>
           <div className='intro-buttons'>
             <a
-              href="/Quan%20Nguyen's%20Resume%202024.docx.pdf" 
+              href="/Quan%20Nguyen's%20Resume%202024.docx (1).pdf" 
               download="Quan_Nguyen_Resume.pdf" 
               className="download-button"
             >
