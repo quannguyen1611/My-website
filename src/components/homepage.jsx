@@ -5,11 +5,11 @@ import { FaDownload, FaGithub, FaLinkedin, FaServer, FaDesktop, FaDatabase, FaCo
 import { BiGitBranch } from 'react-icons/bi';
 import quanImage from '../images/quan3.jpg';
 import GOPFImage from '../images/GOPF.png';
-import Alo from '../images/Alo.png';
-import Referus from '../images/Referus.png';
-import landingPage from '../images/landingPage.png';
+import Alo from '../images/Alo.jpg';
+import Referus from '../images/Referus.jpg';
+import landingPage from '../images/landingPage.jpg';
 import mapImage from '../images/map.png';
-import foodApp from '../images/foodApp.png';
+import foodApp from '../images/foodApp.jpg';
 
 
 
@@ -50,7 +50,7 @@ const Homepage = () => {
     },
     {
       title: "Alo Foundation Homepage",
-      description: "Home page design for a non-profit foundation",
+      description: "Homepage design for a non-profit foundation. This project has been stopped and will be resumed and published in the future",
       skills: ["HTML5", "CSS3", "JavaScript"],
       image: Alo,
       liveDemo: "https://quannguyen1611.github.io/AloFoundation/",
@@ -70,8 +70,8 @@ const Homepage = () => {
       liveDemo: "https://www.figma.com/design/vEsvAk2iBwre8p1KMpOOLv/Interior-Landingpage-web-design?node-id=0-1&node-type=canvas&t=EgF08AgSnqS7HjZh-0",
     },
     {
-      title: "UX/UI High Fidelity Prototype",
-      description: "High fidelity prototype for a networking webiste",
+      title: "High Fidelity UX/UI Prototype",
+      description: "This is a high-fidelity UX/UI prototype for a networking website. Please click through the prototype to explore all the features and interactions.",
       skills: ["Figma"],
       image: Referus,
       liveDemo: "https://www.figma.com/proto/kb1ctTNBtPgfrQzh9EcLe7/High-Fidelity-Prototype?node-id=2329-658&starting-point-node-id=2329%3A658",
