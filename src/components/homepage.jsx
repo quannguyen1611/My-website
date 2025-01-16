@@ -46,14 +46,14 @@ const Homepage = () => {
       image: foodApp,
       liveDemo: "https://www.figma.com/design/IFqt7GwKebmrcBkGM7JNhw/Sample-food-app-design?node-id=0-1&node-type=canvas&t=SyFP8iPAQeZOUZ3b-0",
     },
-    // {
-    //   title: "Landing Page Design",
-    //   description: "Landing page design for an interior agency using figma.",
-    //   skills: ["Figma"],
-    //   image: landingPage,
-    //   liveDemo: "https://www.figma.com/design/vEsvAk2iBwre8p1KMpOOLv/Interior-Landingpage-web-design?node-id=0-1&node-type=canvas&t=EgF08AgSnqS7HjZh-0",
-    //   viewCode: "https://github.com/quannguyen1611/GOPF",
-    // },
+    {
+      title: "Landing Page Design",
+      description: "Landing page design for an interior agency using figma.",
+      skills: ["Figma"],
+      image: landingPage,
+      liveDemo: "https://www.figma.com/design/vEsvAk2iBwre8p1KMpOOLv/Interior-Landingpage-web-design?node-id=0-1&node-type=canvas&t=EgF08AgSnqS7HjZh-0",
+      viewCode: "https://github.com/quannguyen1611/GOPF",
+    },
   ];
 
  
