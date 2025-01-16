@@ -49,6 +49,13 @@ const Homepage = () => {
       viewCode: "https://github.com/quannguyen1611/GOPF",
     },
     {
+      title: "Alo Foundation Homepage",
+      description: "Home page design for a non-profit foundation",
+      skills: ["HTML5", "CSS3", "JavaScript"],
+      image: Alo,
+      liveDemo: "https://quannguyen1611.github.io/AloFoundation/",
+    },
+    {
       title: "Recipe App Design",
       description: "UI design for a mobile recipe application.",
       skills: ["Figma"],
@@ -61,13 +68,6 @@ const Homepage = () => {
       skills: ["Figma"],
       image: landingPage,
       liveDemo: "https://www.figma.com/design/vEsvAk2iBwre8p1KMpOOLv/Interior-Landingpage-web-design?node-id=0-1&node-type=canvas&t=EgF08AgSnqS7HjZh-0",
-    },
-    {
-      title: "Alo Foundation Homepage",
-      description: "Home page design for a non-profit foundation",
-      skills: ["HTML5", "CSS3", "JavaScript"],
-      image: Alo,
-      liveDemo: "https://quannguyen1611.github.io/AloFoundation/",
     },
     {
       title: "UX/UI High Fidelity Prototype",
