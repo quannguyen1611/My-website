@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/My-website/static/css/main.d12796ec.css",
-    "main.js": "/My-website/static/js/main.3154c6fc.js",
+    "main.js": "/My-website/static/js/main.1ffb0d13.js",
     "static/js/453.195b869a.chunk.js": "/My-website/static/js/453.195b869a.chunk.js",
-    "static/media/Alo.png": "/My-website/static/media/Alo.5402cc150a2566278b0f.png",
-    "static/media/landingPage.png": "/My-website/static/media/landingPage.39ac6d861fc37c2aaf96.png",
     "static/media/GOPF.png": "/My-website/static/media/GOPF.63edd966b3161061f4b6.png",
     "static/media/quan3.jpg": "/My-website/static/media/quan3.ac21a8b0b073a987aeac.jpg",
-    "static/media/foodApp.png": "/My-website/static/media/foodApp.9c53d55e83f863243863.png",
+    "static/media/Alo.jpg": "/My-website/static/media/Alo.72c954c8f3691a86e005.jpg",
+    "static/media/foodApp.jpg": "/My-website/static/media/foodApp.1313a36bc1044a63275d.jpg",
+    "static/media/landingPage.jpg": "/My-website/static/media/landingPage.90a9e9a94abbda16e8a4.jpg",
+    "static/media/Referus.jpg": "/My-website/static/media/Referus.b0cee4d43b7cea95a668.jpg",
     "static/media/map.png": "/My-website/static/media/map.ca6d4895473bfff8a8b3.png",
-    "static/media/Referus.png": "/My-website/static/media/Referus.2ab3354ffff59a2fa483.png",
     "index.html": "/My-website/index.html",
     "main.d12796ec.css.map": "/My-website/static/css/main.d12796ec.css.map",
-    "main.3154c6fc.js.map": "/My-website/static/js/main.3154c6fc.js.map",
+    "main.1ffb0d13.js.map": "/My-website/static/js/main.1ffb0d13.js.map",
     "453.195b869a.chunk.js.map": "/My-website/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d12796ec.css",
-    "static/js/main.3154c6fc.js"
+    "static/js/main.1ffb0d13.js"
   ]
 }
