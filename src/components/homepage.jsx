@@ -18,7 +18,14 @@ const Homepage = () => {
   const handleNext = () => {
     setCurrentIndex((prevIndex) => {
       const nextIndex = prevIndex + projectsPerPage;
-      return nextIndex >= projects.length ? 0 : nextIndex;
+      return nextIndex >= projects.length ? 0 : nextIndex; // Loop back to the start
+    });
+  };
+
+  const handlePrevious = () => {
+    setCurrentIndex((prevIndex) => {
+      const prevIndexCalculated = prevIndex - projectsPerPage;
+      return prevIndexCalculated < 0 ? projects.length - projectsPerPage : prevIndexCalculated;
     });
   };
 
@@ -52,7 +59,6 @@ const Homepage = () => {
       skills: ["Figma"],
       image: landingPage,
       liveDemo: "https://www.figma.com/design/vEsvAk2iBwre8p1KMpOOLv/Interior-Landingpage-web-design?node-id=0-1&node-type=canvas&t=EgF08AgSnqS7HjZh-0",
-      viewCode: "https://github.com/quannguyen1611/GOPF",
     },
   ];
 
@@ -114,7 +120,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* Skills */}
+      {/* Skills Section */}
       <section id="skills" className='skills'>
         <h1 style={{ fontSize: "30px" }}>Skills & Technologies</h1>
         <div className='skillCards-grid'>
@@ -175,7 +181,7 @@ const Homepage = () => {
       <section id="projects" className="projects">
         <h1 style={{ fontSize: "30px" }}>Featured Projects</h1>
         <div className="project-slider">
-          {/* <button onClick={handlePrevious} className="arrow-button">◀</button> */}
+          <button onClick={handlePrevious} className="arrow-button">◀</button>
           <div className="project-list">
             {projects.slice(currentIndex, currentIndex + 3).map((project, index) => (
               <div key={index} className="project-card">
