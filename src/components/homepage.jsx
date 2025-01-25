@@ -115,7 +115,7 @@ const Homepage = () => {
           </p>
           <div className='intro-buttons'>
             <a
-              href="/resume.docx" 
+              href="/public/resume.docx" 
               download="Quan_Nguyen_Official_Resume.docx" 
               className="download-button"
             >
