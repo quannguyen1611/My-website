@@ -56,11 +56,11 @@ const Homepage = () => {
       liveDemo: "https://quannguyen1611.github.io/AloFoundation/",
     },
     {
-      title: "Recipe App Design",
-      description: "UI design for a mobile recipe application.",
-      skills: ["Figma"],
+      title: "WordPress site demo",
+      description: "I created a WordPress site for Steve's Weave to showcase my ability to design and develop functional, user-friendly platforms tailored to their mission of connecting eco-conscious consumers with sustainable businesses.",
+      skills: ["WordPress"],
       image: foodApp,
-      liveDemo: "https://www.figma.com/design/IFqt7GwKebmrcBkGM7JNhw/Sample-food-app-design?node-id=0-1&node-type=canvas&t=SyFP8iPAQeZOUZ3b-0",
+      liveDemo: "https://nguy4359.wordpress.com/?_gl=1%2Anq2nov%2A_gcl_aw%2AR0NMLjE3Mzc1MTU4ODguQ2owS0NRaUFxTDI4QmhDckFSSXNBQ1lKdmtjZGo2YzcxRE02NnpYSDMzLWl6QzBKR2lEMm9sa3g5ZVA5b3kyLVl5cmN4Z1N0cURhRlVNd2FBckdCRUFMd193Y0I.%2A_gcl_au%2ANDM2NzIxMzAwLjE3Mzc1MTUzMTA.",
     },
     {
       title: "Landing Page Design",
