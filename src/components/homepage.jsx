@@ -9,7 +9,7 @@ import Alo from '../images/Alo.jpg';
 import Referus from '../images/Referus.jpg';
 import landingPage from '../images/landingPage.jpg';
 import mapImage from '../images/map.png';
-import foodApp from '../images/foodApp.jpg';
+import green from '../images/green.jpg';
 
 
 
@@ -59,7 +59,7 @@ const Homepage = () => {
       title: "WordPress site demo",
       description: "I created a WordPress site for Steve's Weave to showcase my ability to design and develop functional, user-friendly platforms tailored to their mission of connecting eco-conscious consumers with sustainable businesses.",
       skills: ["WordPress"],
-      image: foodApp,
+      image: green,
       liveDemo: "https://nguy4359.wordpress.com/?_gl=1%2Anq2nov%2A_gcl_aw%2AR0NMLjE3Mzc1MTU4ODguQ2owS0NRaUFxTDI4QmhDckFSSXNBQ1lKdmtjZGo2YzcxRE02NnpYSDMzLWl6QzBKR2lEMm9sa3g5ZVA5b3kyLVl5cmN4Z1N0cURhRlVNd2FBckdCRUFMd193Y0I.%2A_gcl_au%2ANDM2NzIxMzAwLjE3Mzc1MTUzMTA.",
     },
     {
@@ -115,8 +115,8 @@ const Homepage = () => {
           </p>
           <div className='intro-buttons'>
             <a
-              href="/Quan%20Nguyen's%20Resume%202024.docx (1).pdf" 
-              download="Quan_Nguyen_Resume.pdf" 
+              href="/resume.docx" 
+              download="Quan_Nguyen_Official_Resume.docx" 
               className="download-button"
             >
               <FaDownload style={{ marginRight: '5px' }} />
