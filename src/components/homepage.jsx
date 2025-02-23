@@ -42,11 +42,11 @@ const Homepage = () => {
     },
     {
       title: "GOPF Program",
-      description: "The Global Online Pain Fellowship website serves as an informative platform to promote our program to potential attendees and provide them with comprehensive details about participation and benefits.",
-      skills: ["HTML5", "CSS3", "JavaScript"],
+      description: "The Global Online Pain Fellowship website is a dynamic ReactJS and TypeScript-based platform, serves as an informative platform to promote our program to potential attendees and provide them with comprehensive details about participation and benefits.",
+      skills: ["ReactJS", "TypeScript", "Vite", "CSS Module"],
       image: GOPFImage,
-      liveDemo: "https://quannguyen1611.github.io/GOPF/",
-      viewCode: "https://github.com/quannguyen1611/GOPF",
+      liveDemo: "https://quannguyen1611.github.io/GOPF_React/",
+      viewCode: "https://github.com/quannguyen1611/GOPF_React",
     },
     {
       title: "Alo Foundation Homepage",
